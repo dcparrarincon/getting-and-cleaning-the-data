@@ -62,4 +62,4 @@ meltData      = melt(data, id = idLabels, measure.vars = dataLabels)
 tidyData   = dcast(meltData, subject + Activity_Label ~ variable, mean)
 
 # write tidy dataset
-write.table(tidyData, file = "./tidy_data2.txt")
+write.table(tidyData, file = "./tidy_data.txt")
