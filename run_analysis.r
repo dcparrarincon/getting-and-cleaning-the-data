@@ -1,4 +1,4 @@
-
+# check required packages
 if (!require("reshape2")) {
   install.packages("reshape2")
 }
